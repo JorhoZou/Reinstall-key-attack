@@ -189,7 +189,7 @@ int dictionary(int start)
 			countnum = dictionary(start + 3);
 			if (countnum) count += countnum;
 		}
-		//maybe "INPUT"
+		//maybe "INPUT" 
 		if (islegal('I'^stream[start]) && islegal('N'^stream[start + 1]) && islegal('P'^stream[start + 2]) && islegal('U'^stream[start + 3]) && islegal('T'^stream[start + 4]))
 		{
 			p1[start] = 'I';
